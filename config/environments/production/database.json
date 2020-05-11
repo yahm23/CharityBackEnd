@@ -2,16 +2,14 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "bookshelf",
+      "connector": "mongoose",
       "settings": {
-        "client": "sqlite",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "client": "mongo",
+        "uri": "mongodb://admin:test354@greencluster-shard-00-00-hrdca.mongodb.net:27017,greencluster-shard-00-01-hrdca.mongodb.net:27017,greencluster-shard-00-02-hrdca.mongodb.net:27017/backend?ssl=true&replicaSet=GreenCluster-shard-0&authSource=admin&retryWrites=true&w=majority"
       },
-      "options": {}
+      "options": {
+        "ssl":true
+      }
     }
   }
 }
