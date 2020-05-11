@@ -1,14 +1,15 @@
+
 {
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "bookshelf",
+      "connector": "mongoose",
       "settings": {
-        "client": "sqlite",
-        "filename": ".tmp/data.db"
+        "uri": "${process.env.DATABASE_URI}",
+        "database": "${process.env.DATABASE_NAME || BackEnd }"
       },
       "options": {
-        "useNullAsDefault": true
+        "ssl": true
       }
     }
   }
