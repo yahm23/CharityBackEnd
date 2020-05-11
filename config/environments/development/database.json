@@ -1,12 +1,11 @@
-
 {
   "defaultConnection": "default",
   "connections": {
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "${process.env.DATABASE_URI}",
-        "database": "${process.env.DATABASE_NAME || BackEnd }"
+        "client": "mongo",
+        "uri": "mongodb://admin:test354@greencluster-shard-00-00-hrdca.mongodb.net:27017,greencluster-shard-00-01-hrdca.mongodb.net:27017,greencluster-shard-00-02-hrdca.mongodb.net:27017/backend?ssl=true&replicaSet=GreenCluster-shard-0&authSource=admin&retryWrites=true&w=majority"
       },
       "options": {
         "ssl": true
