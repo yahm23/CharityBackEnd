@@ -23,12 +23,9 @@
       "plugin": "upload",
       "required": false
     },
-    "id": {
-      "type": "uid"
-    },
     "blogs": {
-      "collection": "blogs",
-      "via": "author"
+      "via": "author",
+      "collection": "blogs"
     }
   }
 }

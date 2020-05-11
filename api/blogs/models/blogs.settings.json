@@ -26,16 +26,12 @@
       "plugin": "upload",
       "required": false
     },
-    "id": {
-      "type": "uid",
-      "targetField": "title"
-    },
     "content": {
       "type": "text"
     },
     "author": {
-      "via": "blogs",
-      "model": "authors"
+      "model": "authors",
+      "via": "blogs"
     }
   }
 }
