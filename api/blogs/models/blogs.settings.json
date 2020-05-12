@@ -26,12 +26,12 @@
       "plugin": "upload",
       "required": false
     },
-    "content": {
-      "type": "text"
-    },
     "author": {
       "model": "authors",
       "via": "blogs"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
