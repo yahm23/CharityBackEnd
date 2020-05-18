@@ -1,4 +1,5 @@
 'use strict';
+require('newrelic');
 
 /**
  * An asynchronous bootstrap function that runs before
