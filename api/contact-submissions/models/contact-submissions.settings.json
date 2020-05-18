@@ -12,9 +12,6 @@
     "message": {
       "type": "richtext"
     },
-    "date": {
-      "type": "datetime"
-    },
     "email": {
       "type": "email"
     },
