@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donations",
+  "info": {
+    "name": "donation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}
