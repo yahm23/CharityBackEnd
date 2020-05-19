@@ -9,17 +9,17 @@
     "timestamps": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Amount": {
-      "type": "integer"
+    "amount": {
+      "type": "decimal"
     },
     "email": {
       "type": "email"
     },
-    "phone": {
-      "type": "integer"
+    "number": {
+      "type": "string"
     }
   }
 }
