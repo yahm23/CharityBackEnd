@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sustainable_development_funds",
+  "info": {
+    "name": "sustainableDevelopmentFund"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "emailAddress": {
+      "type": "email"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "organisationName": {
+      "type": "string"
+    },
+    "companyRegistrationOrCharityNumber": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "integer"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "projectOverview": {
+      "type": "text"
+    },
+    "projectNeeded": {
+      "type": "text"
+    },
+    "whoWillProjectImpact": {
+      "type": "text"
+    },
+    "outcomeOrBenefitOfProject": {
+      "type": "text"
+    },
+    "projectDemonstration": {
+      "type": "text"
+    },
+    "sourceOtherFunding": {
+      "type": "text"
+    },
+    "barriersAndChallenges": {
+      "type": "text"
+    },
+    "projectMonitoredAndEvaluated": {
+      "type": "text"
+    },
+    "projectContinuedOnceFunding": {
+      "type": "text"
+    },
+    "partnerOrganisations": {
+      "type": "text"
+    },
+    "existingFundsOrReserves": {
+      "type": "text"
+    },
+    "grantAmount": {
+      "type": "integer"
+    },
+    "publicDescriptionOfProject": {
+      "type": "text"
+    },
+    "communityImpactOfProject": {
+      "type": "text"
+    }
+  }
+}

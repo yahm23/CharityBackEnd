@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sustainable-development-funds",
+      "handler": "sustainable-development-fund.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sustainable-development-funds/count",
+      "handler": "sustainable-development-fund.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sustainable-development-funds/:id",
+      "handler": "sustainable-development-fund.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sustainable-development-funds",
+      "handler": "sustainable-development-fund.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sustainable-development-funds/:id",
+      "handler": "sustainable-development-fund.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sustainable-development-funds/:id",
+      "handler": "sustainable-development-fund.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
