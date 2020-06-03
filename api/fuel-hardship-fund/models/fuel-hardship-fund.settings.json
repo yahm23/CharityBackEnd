@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fuel_hardship_funds",
+  "info": {
+    "name": "Fuel Hardship Fund"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "emailAddress": {
+      "type": "email"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "position": {
+      "type": "string"
+    },
+    "organisationName": {
+      "type": "string"
+    },
+    "companyRegistrationOrCharityNumber": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "integer"
+    },
+    "nameOfImpactedIndividual": {
+      "type": "string"
+    },
+    "appliedBefore": {
+      "type": "boolean"
+    },
+    "timeSinceLastApplication": {
+      "type": "string"
+    },
+    "fullAddress": {
+      "type": "text"
+    },
+    "impactedIndividualContactNumber": {
+      "type": "integer"
+    },
+    "impactedIndividualContactEmail": {
+      "type": "email"
+    },
+    "numberOfChildren": {
+      "type": "enumeration",
+      "enum": [
+        "noChildren",
+        "oneToTwoChildren",
+        "threeToFourChildren",
+        "fivePlusChildren"
+      ]
+    },
+    "currentEmploymentSituation": {
+      "type": "enumeration",
+      "enum": [
+        "fullTime",
+        "partTime",
+        "selfEmployed",
+        "unemployed",
+        "retired"
+      ]
+    },
+    "householdIncomPerYear": {
+      "type": "enumeration",
+      "enum": [
+        "underTenK",
+        "tenKtoSixteenK",
+        "sixteenKtoEighteenK",
+        "EighteenKtoTwentyK",
+        "overTwentyK"
+      ]
+    },
+    "nameOfElectricSupplier": {
+      "type": "string"
+    },
+    "electricAccountNumber": {
+      "type": "string"
+    },
+    "nameOfGasSupplier": {
+      "type": "string"
+    },
+    "gasAccountNumber": {
+      "type": "string"
+    },
+    "creditOrPrepayment": {
+      "type": "enumeration",
+      "enum": [
+        "creditMeter",
+        "prepaymentMeter"
+      ]
+    },
+    "monthlyDirectDebitAmount": {
+      "type": "integer"
+    },
+    "currentBalanceOnAccount": {
+      "type": "integer"
+    },
+    "hasCustomerHadPaymentPlanPreviously": {
+      "type": "boolean"
+    },
+    "grantAmount": {
+      "type": "integer"
+    },
+    "confirmGrantOnlyForEnergy": {
+      "type": "boolean"
+    },
+    "evidenceProvided": {
+      "type": "text"
+    }
+  }
+}

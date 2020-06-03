@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fuel-hardship-funds",
+      "handler": "fuel-hardship-fund.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fuel-hardship-funds/count",
+      "handler": "fuel-hardship-fund.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fuel-hardship-funds/:id",
+      "handler": "fuel-hardship-fund.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fuel-hardship-funds",
+      "handler": "fuel-hardship-fund.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fuel-hardship-funds/:id",
+      "handler": "fuel-hardship-fund.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fuel-hardship-funds/:id",
+      "handler": "fuel-hardship-fund.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
