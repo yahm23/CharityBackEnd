@@ -75,9 +75,6 @@
     "confirmGrantOnlyForEnergy": {
       "type": "boolean"
     },
-    "evidenceProvided": {
-      "type": "text"
-    },
     "numberOfChildren": {
       "type": "string"
     },
@@ -89,6 +86,9 @@
     },
     "householdIncomPerYear": {
       "type": "string"
+    },
+    "evidenceProvided": {
+      "type": "json"
     }
   }
 }
