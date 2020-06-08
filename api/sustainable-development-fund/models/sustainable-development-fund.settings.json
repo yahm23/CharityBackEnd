@@ -24,9 +24,6 @@
     "companyRegistrationOrCharityNumber": {
       "type": "string"
     },
-    "contactNumber": {
-      "type": "integer"
-    },
     "contactEmail": {
       "type": "email"
     },
@@ -74,6 +71,9 @@
     },
     "communityImpactOfProject": {
       "type": "text"
+    },
+    "contactNumber": {
+      "type": "string"
     }
   }
 }

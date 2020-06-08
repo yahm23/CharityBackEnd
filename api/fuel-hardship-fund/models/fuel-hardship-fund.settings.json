@@ -27,9 +27,6 @@
     "companyRegistrationOrCharityNumber": {
       "type": "string"
     },
-    "contactNumber": {
-      "type": "integer"
-    },
     "nameOfImpactedIndividual": {
       "type": "string"
     },
@@ -41,9 +38,6 @@
     },
     "fullAddress": {
       "type": "text"
-    },
-    "impactedIndividualContactNumber": {
-      "type": "integer"
     },
     "impactedIndividualContactEmail": {
       "type": "email"
@@ -89,6 +83,12 @@
     },
     "evidenceProvided": {
       "type": "json"
+    },
+    "impactedIndividualContactNumber": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
     }
   }
 }
